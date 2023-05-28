@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br" style="margin: 20px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <style>
+        body{
+            background-color: rgb(207, 207, 247);
+            color:blue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        h1{
+            text-align: center;
+
+        }
+        h2{
+            text-align: center;
+        }
+        p, li{
+            color:darkblue
+        }
+        a {
+            text-decoration: none;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+                }
+    </style>
+</head>
+
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2><a id="indice">Índice</a></h2>
+    <ul style="list-style-type:none;">
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores</h2>
+    <h3>Historia e Evolução dos computadores</h3>
+    <p>A palavra <strong>“computador”</strong> vem
+        do verbo <i>“computar”</i> que, por sua vez, significa “<u>calcular</u>”.Dessa forma, uma das primeiras máquinas
+        de computar foi o “ábaco”,
+        instrumento mecânico de origem chinesa criado no século V a.C.</p>
+    
+    <p>Assim, ele é considerado o “primeiro computador”, uma espécie de calculadora que realizava operações algébricas.
+    </p>
+    <p>A primeira calculadora de bolso capaz de efetuar os quatro principais cálculos matemáticos, foi criada por
+        Gottfried Wilhelm Leibniz.</p>
+    <p>A primeira máquina mecânica programável foi introduzida pelo matemático francês Joseph-Marie Jacquard. Tratava-se
+        de um tipo de tear capaz de controlar a confecção dos tecidos através de cartões perfurados.</p>
+    <h3>Evolução</h3>
+    <p>O computador, passou por diversas transformações e foi se aperfeiçoando ao longo do tempo, acompanhando o avanço
+        das áreas da matemática, engenharia, eletrônica. É por isso que não existe somente um inventor.</p>
+    <p>De acordo com os sistemas e componentes utilizados, a história da computação está dividida em quatro períodos:
+    </p>
+    <ol>
+        <li>Primeira Geração (1951-1959)</li>
+        <p>Os computadores de primeira geração funcionavam por meio de circuitos e válvulas eletrônicas. Possuíam o uso
+            restrito, além de serem imensos e consumirem muita energia.</p>
+        <p>Um exemplo é o ENIAC (Eletronic Numerical Integrator and Computer) que consumia cerca de 200 quilowatts e
+            possuía 19.000 válvulas.</p>
+        <li>Segunda Geração (1959-1965)</li>
+        <p>Ainda com dimensões muito grandes, os computadores da segunda geração funcionavam por meio de transistores,
+            os quais substituíram as válvulas que eram maiores e mais lentas. Nesse período já começam a se espalhar o
+            uso comercial.</p>
+        <li>Terceira Geração (1965-1975)</li>
+        <p>Os computadores da terceira geração funcionavam por circuitos integrados. Esses substituíram os transistores
+            e já apresentavam uma dimensão menor e maior capacidade de processamento.</p>
+        <p>Foi nesse período que os chips foram criados e a utilização de computadores pessoais começou.</p>
+        <p>Além disso, surgem os softwares integrados e a partir da virada do milênio, começam a surgir os computadores
+            de mão. Ou seja, os smartphones, iPod, iPad e tablets, que incluem conexão móvel com navegação na web.</p>
+
+        <li>Quarta Geração (1975-até os dias atuais)</li>
+        <p>Com o desenvolvimento da tecnologia da informação, os computadores diminuem de tamanho, aumentam a velocidade
+            e capacidade de processamento de dados. São incluídos os microprocessadores com gasto cada vez menor de
+            energia.</p>
+        <p>Nesse período, mais precisamente a partir da década de 90, há uma grande expansão dos computadores pessoais.
+        </p>
+        <p>Além disso, surgem os softwares integrados e a partir da virada do milênio, começam a surgir os computadores
+            de mão. Ou seja, os smartphones, iPod, iPad e tablets, que incluem conexão móvel com navegação na web.</p>
+        <br>
+            <figure>
+            <img src="https://static.todamateria.com.br/upload/56/13/5613f67821641-historia-e-evolucao-dos-computadores.jpg?auto_optimize=low" alt="a evolução dos computadores" class="center">
+            <figcaption>
+                <legend class="center">Segundo a classificação acima, nós pertencemos à quarta geração dos computadores, o que revela uma
+                evolução incrível nos sistemas de informação.</legend>
+            </figcaption>
+        </figure>
+    </ol>
+    <hr />
+    <p style="text-align:right"><a href="#indice">Volta ao Índice</a></p>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+        <p><strong><u>Cliente:</u> </strong>Na maioria dos contextos é considerado como cliente de uma entidade todo aquele que decide a compra de determinado bem (…)</p>
+        <p><strong><u>Conceito:</u> </strong>São programas executando em máquinas distintas, trocando informação através de uma rede de computadores. </p>
+        <p>No desenvolvimento da web, o "lado do cliente" refere-se a tudo em um aplicativo web que é exibido ou ocorre no cliente (dispositivo do usuário final). Isso inclui o que o usuário vê, como texto, imagens, vídeos, sites de compras e etc..., junto com quaisquer ações que um aplicativo execute no navegador do usuário.</p>
+    <h2>Características do <i>Clients</i></h2>
+    <ul>
+        <li>Inicia pedidos aos servidores;</li>
+        <li>Espera por respostas;</li>
+        <li>Recebe respostas;</li>
+        <li>Conecta-se a um pequeno numero de servidores de uma só vez;</li>
+        <li>Normalmente interage diretamente com os servidores através de seu software aplicação especifico, que lhe possibilita a comunicação com o servidor;</li>
+        <li>Utiliza recursos da rede.</li>
+    </ul>
+<figure>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cliente-Servidor.png/444px-Cliente-Servidor.png" alt="vários pc's comunicando com o servidor" class="center">
+<legend class="center">Um diagrama de <a href="https://pt.wikipedia.org/wiki/Rede_de_computadores" target="_blank">rede de computadores</a>  (incluindo dispositivos móveis) de clientes comunicando com um servidor através da <a href="https://pt.wikipedia.org/wiki/Internet" alt="sobre a Internet" target="_blank">Internet</a>. 
+    Tanto os clientes como o servidor são os <a href="https://pt.wikipedia.org/wiki/N%C3%B3" alt="sobre nós" target="_blank">nós</a>(pontos de comunicação) na <a href="https://pt.wikipedia.org/wiki/Rede" alt="rede de computadores" target="_blank">rede</a>. A organização dos nós de uma rede designa-se por <a href="https://pt.wikipedia.org/wiki/Topologia_de_rede" alt="Topologia_de_rede" target="_blank">topologia de rede</a>.</legend>
+</figure>
+<p style="text-align:right"><a href="#indice">Volta ao Índice</a></p>
+<hr />
+        <h2 id="servers">O que são <i>Servers</i>?</h2>
+        <p><strong><u>Servers:</u> </strong>Muito parecido com o lado do cliente, o "lado do servidor" significa tudo o que acontece no servidor, em vez de no cliente. No passado, quase toda a lógica de negócios era executada no lado do servidor e isso incluía renderizar páginas da web dinâmicas, interagir com bancos de dados, autenticação de identidade e notificações push.</p>
+        <p>O problema de hospedar todos esses processos no lado do servidor é que cada solicitação envolvendo um deles tem que viajar desde o cliente até o servidor, todas as vezes. Isso apresenta uma grande quantidade de <a href="https://www.cloudflare.com/pt-br/learning/performance/glossary/what-is-latency/" target="_blank">latência</a>. Por esse motivo, os aplicativos contemporâneos 
+            executam mais códigos no lado do cliente; um caso de uso é renderizar páginas da web dinâmicas em tempo real, executando scripts no navegador que fazem alterações no conteúdo que o usuário vê.</p>
+        <p>Com o "front-end" é o "lado do cliente", back-end é responsável por toda a estruturação dos dados do servidor, também é um termo para os processos que ocorrem no servidor, embora back-end se refira apenas aos tipos de processos e lado do servidor se refira ao local onde os processos são executados.</p>
+        <h2>Características dos <i>Servers</i></h2>
+        <p>Os servidores podem servir a vários dispositivos clientes ao mesmo tempo e cada dispositivo cliente envia solicitações a vários servidores durante o acesso e a navegação na internet.</p>
+        <figure>
+        <img src="https://www.cloudflare.com/img/learning/serverless/glossary/client-side-vs-server-side/many-to-many-client-server-relationship.svg" alt="varios usuarios se conectando a varios servidores" class="center" width="450">
+        <legend class="center">Vários usuários se conectando a vários servidores</legend>
+        </figure>
+        <br>
+        <h2>Características dos Servers</h2>
+        <ul>
+        <li>Sempre espera por um pedido de um cliente;</li>
+        <li>Atende os pedidos e, em seguida, responde aos clientes com os dados solicitados;</li>
+        <li>Podem se conectar com outros servidores para atender uma solicitação específica do cliente; jamais podem se comunicar.</li>
+        <li>Fornece recursos de rede.</li>
+        <li>Normalmente interage diretamente com os usuários finais através de qualquer interface com o usuário;</li>
+        <li>Estrutura o sistema.</li>
+    </ul>
+    <p style="text-align:right"><a href="#indice">Volta ao Índice</a></p>
+    <hr />
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <p><b>HTML</b> (Linguagem de Marcação de Hipertexto) é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas. </p>
+    <p><strong>Então o que é <u>HTML</u>? </strong>HTML não é uma linguagem de programação; é uma linguagem de marcação, usada para definir a estrutura do seu conteúdo. HTML consiste de uma série de elementos, que você usa para delimitar ou agrupar diferentes partes do conteúdo para que ele apareça ou atue de determinada maneira. As tags anexas podem transformar uma palavra ou imagem num hiperlink, pode colocar palavras em itálico, pode aumentar ou diminuir a fonte e assim por diante. Por exemplo, veja a seguinte linha de conteúdo:
+    </p>
+    <img src="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics/gato-rabujento-atributo-pequeno.png" alt="explicação dos atributos" width="100px" class="center">
+    <br>
+    <p>Atributos contém informação extra sobre o elemento que você não quer que espere no conteúdo real. 
+        Aqui, classé o nome do atributo e editor-noteé o valor do atributo. O atributo classpermite que 
+        você forneça ao elemento um identificador que pode ser usado posteriormente para aplicar ao elemento 
+        informações de estilo e outras coisas.</p>
+    <p>A estrutura básica do HTML5 é próxima da estrutra do XHTML e do HTML 4, contendo os elementos HEAD e 
+        BODY.</p>
+    <pre>
+        <code> &lt;!DOCTYPE html&gt;
+                &lt;html lang="pt-br"&gt;
+                &lt;head&gt;
+                <br>
+                &lt;/head&gt;
+                &lt;body&gt;
+                <br>
+                &lt;/body&gt;
+               &lt;/html&gt;
+        </code>
+    </pre>
+    <p>É possível replicar o código fonte apresentado em algum tipo de <a href="https://blog.betrybe.com/tecnologia/ide/" target="_blank">IDE</a> No nosso caso, estamos 
+        utilizando o <a href="https://blog.betrybe.com/ferramentas/vs-code-guia-completo/" target="_blank">VS Code</a>, que é uma ferramenta completa para esse tipo de desenvolvimento.</p>
+        <p>Vejamos as principais tags:</p>
+        <p><strong>As tags foram escritas <.tag> para evitar falhas ou erros na visualização.</strong></p>
+         <h3>1.&lt;!DOCTYPE html&gt;</h3> 
+         <p>Todas os documentos em HTML devem começar com uma declaração: &lt;!DOCTYPE html&gt;.
+          </p>  
+          <h3>2.&lt;HTML&gt;</h3>
+          <p> É uma "informação" para o navegador sobre qual tipo de documento esperar.O documento em si começa e termina &lt;html&gt; e &lt;/html&gt;.</p>
+          <h3>3.&lt;HEAD&gt;</h3>
+          <p> A tag de cabeçalho (HEAD) contém o contéudo que é visualizado pela máquina, tais como os scripts, 
+            links externos e metadados.Não é visualizado pelo usuário. </p>
+        <h3>2.&lt;META&gt;</h3>
+        <p>São as tags para descrever atributos de metadados, os valores mais conhecidos são: <b>conjunto 
+            de caracteres, a descrição da página, as palavras-chave, o autor do documento e as configurações da viewport</b></p>
+            <h3>4.&lt;TITLE&gt;</h3>
+        <p>Serve para descrever o título da página fica na aba do navegador.</p>
+        <h3>2.&lt;LINK&gt;</h3>
+        <p>Esta tag é usada para fazer a conexão entre o arquivo atual e algum arquivo externo, mais utilizado em conjunto
+            com arquivos CSS</p>
+            <h3>5.&lt;SCRIPT&gt;</h3>
+            <p>Serve para executar código Javascript dentro do HTML, se passarmos a propriedade <b>src</b> podemos buscar em arquivo
+            externo, similar a tag <b>Link</b></p>
+            <h3>6.&lt;BODY&gt;</h3>
+            <p>É o corpo do nossa página, aqui adicionamos textos, imagens, links, tabelas, formulários e etc... .É uma 
+                 tag única e pode ser considerada a tag pai de todos os elementos do contéudo.   </p>
+                 <h3>7.Tags HTML5 e seus Significados</h3>
+        <ul>
+            <li><strong>base:</strong> define a url base do documento</li>
+            <li><strong>nav:</strong> define uma área de navegação contendo links, para a formação de menus com hiperlinks</li>
+            <li><strong>footer:</strong> define o rodapé de uma página ou seção</li>
+            <li><strong>main:</strong> define o conteúdo principal da página, deve ser utilizado apenas uma única vez em cada página</li>
+            <li><strong>section:</strong> define uma seção do documento</li>
+            <li><strong>article:</strong> pode ser um post ou notícia de um fórum ou blog, define o conteúdo independente </li>
+            <li><strong>h1 a h6:</strong> representam 6 níveis de títulos , sendo 1 de maior importância</li>
+            <li><strong>p:</strong> define um parágrafo</li>
+            <li><strong>br:</strong> define quebra de linha</li>
+            <li><strong>div:</strong> define uma camada sem formatação, genérico</li>
+            <li><strong>ul:</strong> define uma lista não ordenada</li>
+            <li><strong>li:</strong> define um elemento ou itme da lista não ordenada</li>
+            <li><strong>a:</strong> define um link que deve ser apontado com o atributo <i>href</i></li>
+            <li><strong>img:</strong> define a utilização de uma imagem(JPG, GIF, PNG e outras).A imagem deve ser apontada com o uso do stributo <i>src</i></li>
+            <li><strong>strong:</strong> apesar de deixar em negrito, representa a importância deste texto no meio da frase.</li>
+            <li><strong>dell:</strong> define o texto que foi excluído de um documento.Minha cor favorita é <del>azul</del> <ins>roxo</ins>!</li>
+            <li><strong>abbr:</strong> define uma abreviação ou acrônimo, como "HTML", "CSS", "Mr."The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</li>
+            <li><strong>sup:</strong> define o texto sobrescrito.This text contains <sup>subscript</sup> text.</li>
+            <li><strong>sub:</strong> define o texto subscrito.This text contains <sub>subscript</sub> text.</li>
+            <li><strong>mark:</strong> define o texto que deve ser marcado ou <mark>destacado</mark></li>
+
+        </ul>
+        <p>Algumas tags foram descontinuadas no HTML5 como:</p>
+        <ul><li><strong>font:</strong> Especifica a face da fonte, o tamanho e a cor do texto. </li></ul>
+       
+            <p style="text-align:right"><a href="#indice">Volta ao Índice</a></p>
+    <hr />
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <h3>Oque são listas em HTML?</h3>
+    <p>Existem três tipos de listas no HTML, sendo a <b>ordenada</b>,<b>não ordenada</b> e de <b>descrição</b>. As duas primeiras utilizam as tags 
+        &lt;ol&gt;  e &lt;ul&gt;, respectivamente, e também usam a tag &lt;li&gt; para descrever cada item da lista.</p>
+    <pre>
+        <code>
+            &lt;p&gt;
+            Lista ordenada:
+            &lt;/p&gt;
+
+            &lt;ol&gt;
+            &lt;li&gt;Primeiro&lt;li&gt;
+            &lt;li&gt;Segundo&lt;li&gt;
+            &lt;li&gt;Terceiro&lt;li&gt;
+            &lt;ol&gt;
+
+            &lt;p&gt;
+            Lista não ordenada:
+            &lt;/p&gt;
+
+            &lt;ul&gt;
+            &lt;li&gt;Primeiro&lt;li&gt;
+            &lt;li&gt;Segundo&lt;li&gt;
+            &lt;li&gt;Terceiro&lt;li&gt;
+            &lt;ul&gt;
+        </code>
+    </pre>
+    <ol>Lista ordenada:
+        <li>Primeiro</li>
+        <li>Segundo</li>
+        <li>Terceiro</li>
+    </ol>
+    <br>
+    <ul>Lista ordenada:
+        <li>Primeiro</li>
+        <li>Segundo</li>
+        <li>Terceiro</li>
+    </ul>
+    <p>Podemos mudar a forma de exibição da lista ordenada utilizando, por exemplo, números romanos,números, 
+        letras minúsculas e maiúsculas através do atributo <b>type</b>.</p>
+       <pre>
+        <code>
+            &lt;p&gt;
+            Lista ordenada com números romano maiúsculos:
+            &lt;/p&gt;
+    
+            &lt;ol type="I"&gt;
+            &lt;li&gt;Primeiro&lt;li&gt;
+            &lt;li&gt;Segundo&lt;li&gt;
+            &lt;li&gt;Terceiro&lt;li&gt;
+            &lt;ol&gt;
+        </code>
+       </pre>
+       <ol type="I">
+        <li>Primeiro</li>
+        <li>Segundo</li>
+        <li>Terceiro</li>
+       </ol>
+        <p style="text-align:right"><a href="#indice">Volta ao Índice</a></p>
+    <hr />
+    <h2 id="referencias">Links de referências</h2>
+    <p><strong>Pesquisas:</strong> Estes são links das páginas consultadas atualizadas.</p>
+   <ul>
+        <li><a href="https://knoow.net/cienceconempr/gestao/cliente//" target="_blank">https://knoow.net/cienceconempr/gestao/cliente//</a></li>
+        <li><a href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/#" target="_blank">https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Modelo_cliente%E2%80%93servidor#Caracter%C3%ADsticas_do_Cliente" target="_blank">https://pt.wikipedia.org/wiki/Modelo_cliente%E2%80%93servidor#Caracter%C3%ADsticas_do_Cliente</a></li>
+        <li><a href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/" target="_blank">https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics</a></li>
+        <li> <a href="https://gist.github.com/profburnes/9d4d0ae6926e3adb6be7a9f6d1194064" target="_blank">https://gist.github.com/profburnes/9d4d0ae6926e3adb6be7a9f6d1194064</a></li>
+        <li><a href="https://www.devmedia.com.br/listas-em-html/23853#ordenadas" target="_blank">https://www.devmedia.com.br/listas-em-html/23853#ordenadas</a></li>
+   </ul>
+        <p style="text-align:right"><a href="#indice">Volta ao Índice</a></p>
+</body>
+</html>
